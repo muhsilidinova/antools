@@ -1,0 +1,62 @@
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 700px;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.image img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.text p {
+    margin: 4px 0 16px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+blockquote {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.navigation button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+.navigation button:hover {
+    color: #ffa500;
+}
